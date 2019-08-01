@@ -16,7 +16,7 @@ bookdown::gitbook:
       twitter: yes
 bookdown::pdf_book:
   includes:
-    in_header: preamble.tex
+    in_header: [stat545-reboot.js, preamble.tex]
   latex_engine: xelatex
   citation_package: natbib
   keep_tex: yes
